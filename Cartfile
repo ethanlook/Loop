@@ -5,3 +5,4 @@ github "mddub/dexcom-share-client-swift" ~> 0.1
 github "mddub/G4ShareSpy" ~> 0.2.2
 github "ps2/rileylink_ios" ~> 0.11.2
 github "amplitude/Amplitude-iOS" ~> 3.8.5
+github "ethanlook/TidepoolKit" ~> 0.1.3
