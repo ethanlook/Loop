@@ -142,6 +142,8 @@
 		43F78D4F1C914197002152D1 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F78D4B1C914197002152D1 /* LoopKit.framework */; };
 		4D3B40041D4A9E1A00BC6334 /* G4ShareSpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */; };
 		4D5B7A4B1D457CCA00796CA9 /* GlucoseG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */; };
+		AADB93411D85C23A008A5ED7 /* TidepoolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */; };
+		AADB93431D85C344008A5ED7 /* TidepoolService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB93421D85C344008A5ED7 /* TidepoolService.swift */; };
 		C10428971D17BAD400DD539A /* NightscoutUploadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */; };
 		C17884631D51A7A400405663 /* BatteryIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17884621D51A7A400405663 /* BatteryIndicator.swift */; };
 		C18C8C511D5A351900E043FB /* NightscoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C8C501D5A351900E043FB /* NightscoutDataManager.swift */; };
@@ -367,6 +369,9 @@
 		43F78D4B1C914197002152D1 /* LoopKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopKit.framework; path = Carthage/Build/iOS/LoopKit.framework; sourceTree = "<group>"; };
 		4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = G4ShareSpy.framework; path = Carthage/Build/iOS/G4ShareSpy.framework; sourceTree = "<group>"; };
 		4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlucoseG4.swift; path = Loop/Models/GlucoseG4.swift; sourceTree = SOURCE_ROOT; };
+		AADB933C1D85BEC6008A5ED7 /* TidepoolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidepoolKit.framework; path = "../../Library/Developer/Xcode/DerivedData/TidepoolKit-cybphccbcdualialhoxddtulvoyd/Build/Products/Debug-iphonesimulator/TidepoolKit.framework"; sourceTree = "<group>"; };
+		AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidepoolKit.framework; path = "../../Library/Developer/Xcode/DerivedData/Loop-brrgvjdurjrdvsboavqrmqkcbooc/Build/Products/Debug-iphonesimulator/TidepoolKit.framework"; sourceTree = "<group>"; };
+		AADB93421D85C344008A5ED7 /* TidepoolService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TidepoolService.swift; sourceTree = "<group>"; };
 		C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NightscoutUploadKit.framework; path = Carthage/Build/iOS/NightscoutUploadKit.framework; sourceTree = "<group>"; };
 		C17884621D51A7A400405663 /* BatteryIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryIndicator.swift; sourceTree = "<group>"; };
 		C18C8C501D5A351900E043FB /* NightscoutDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightscoutDataManager.swift; sourceTree = "<group>"; };
@@ -397,6 +402,7 @@
 				43B371881CE597D10013C5A6 /* ShareClient.framework in Frameworks */,
 				4346D1F01C781BEA00ABAFE3 /* SwiftCharts.framework in Frameworks */,
 				43EDDBF31C361C75007D89B5 /* xDripG5.framework in Frameworks */,
+				AADB93411D85C23A008A5ED7 /* TidepoolKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				43C418B41CE0575200405B6A /* ShareGlucose+GlucoseKit.swift */,
 				434F545E1D288345002A9274 /* ShareService.swift */,
 				4328E0311CFC068900E199AA /* WatchContext+LoopKit.swift */,
+				AADB93421D85C344008A5ED7 /* TidepoolService.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -689,6 +696,8 @@
 		968DCD53F724DE56FFE51920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */,
+				AADB933C1D85BEC6008A5ED7 /* TidepoolKit.framework */,
 				434FB6451D68F1CD007B9C70 /* Amplitude.framework */,
 				C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */,
 				43B371871CE597D10013C5A6 /* ShareClient.framework */,
@@ -1051,6 +1060,7 @@
 				43F4EF1D1BA2A57600526CE1 /* DiagnosticLogger.swift in Sources */,
 				432E73CB1D24B3D6009AD15D /* RemoteDataManager.swift in Sources */,
 				438DADC81CDE8F8B007697A5 /* LoopStateView.swift in Sources */,
+				AADB93431D85C344008A5ED7 /* TidepoolService.swift in Sources */,
 				43DE92591C5479E4001FFDE1 /* CarbEntryUserInfo.swift in Sources */,
 				434F54631D28DD80002A9274 /* ValidatingIndicatorView.swift in Sources */,
 				439897351CD2F7DE00223065 /* NSTimeInterval.swift in Sources */,
