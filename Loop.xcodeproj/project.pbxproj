@@ -142,7 +142,10 @@
 		43F78D4F1C914197002152D1 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F78D4B1C914197002152D1 /* LoopKit.framework */; };
 		4D3B40041D4A9E1A00BC6334 /* G4ShareSpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */; };
 		4D5B7A4B1D457CCA00796CA9 /* GlucoseG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */; };
-		AADB93411D85C23A008A5ED7 /* TidepoolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */; };
+		AAACD7331D8601BA00560A14 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACD7321D8601BA00560A14 /* CryptoSwift.framework */; };
+		AAACD7351D8601BF00560A14 /* TidepoolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACD7341D8601BF00560A14 /* TidepoolKit.framework */; };
+		AAACD7361D86024300560A14 /* TidepoolKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAACD7341D8601BF00560A14 /* TidepoolKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAACD7371D86024300560A14 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAACD7321D8601BA00560A14 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AADB93431D85C344008A5ED7 /* TidepoolService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB93421D85C344008A5ED7 /* TidepoolService.swift */; };
 		C10428971D17BAD400DD539A /* NightscoutUploadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */; };
 		C17884631D51A7A400405663 /* BatteryIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17884621D51A7A400405663 /* BatteryIndicator.swift */; };
@@ -202,6 +205,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AAACD7361D86024300560A14 /* TidepoolKit.framework in Embed Frameworks */,
+				AAACD7371D86024300560A14 /* CryptoSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +374,8 @@
 		43F78D4B1C914197002152D1 /* LoopKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopKit.framework; path = Carthage/Build/iOS/LoopKit.framework; sourceTree = "<group>"; };
 		4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = G4ShareSpy.framework; path = Carthage/Build/iOS/G4ShareSpy.framework; sourceTree = "<group>"; };
 		4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlucoseG4.swift; path = Loop/Models/GlucoseG4.swift; sourceTree = SOURCE_ROOT; };
+		AAACD7321D8601BA00560A14 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		AAACD7341D8601BF00560A14 /* TidepoolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidepoolKit.framework; path = Carthage/Build/iOS/TidepoolKit.framework; sourceTree = "<group>"; };
 		AADB933C1D85BEC6008A5ED7 /* TidepoolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidepoolKit.framework; path = "../../Library/Developer/Xcode/DerivedData/TidepoolKit-cybphccbcdualialhoxddtulvoyd/Build/Products/Debug-iphonesimulator/TidepoolKit.framework"; sourceTree = "<group>"; };
 		AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidepoolKit.framework; path = "../../Library/Developer/Xcode/DerivedData/Loop-brrgvjdurjrdvsboavqrmqkcbooc/Build/Products/Debug-iphonesimulator/TidepoolKit.framework"; sourceTree = "<group>"; };
 		AADB93421D85C344008A5ED7 /* TidepoolService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TidepoolService.swift; sourceTree = "<group>"; };
@@ -402,7 +409,8 @@
 				43B371881CE597D10013C5A6 /* ShareClient.framework in Frameworks */,
 				4346D1F01C781BEA00ABAFE3 /* SwiftCharts.framework in Frameworks */,
 				43EDDBF31C361C75007D89B5 /* xDripG5.framework in Frameworks */,
-				AADB93411D85C23A008A5ED7 /* TidepoolKit.framework in Frameworks */,
+				AAACD7331D8601BA00560A14 /* CryptoSwift.framework in Frameworks */,
+				AAACD7351D8601BF00560A14 /* TidepoolKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +704,8 @@
 		968DCD53F724DE56FFE51920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAACD7341D8601BF00560A14 /* TidepoolKit.framework */,
+				AAACD7321D8601BA00560A14 /* CryptoSwift.framework */,
 				AADB93401D85C23A008A5ED7 /* TidepoolKit.framework */,
 				AADB933C1D85BEC6008A5ED7 /* TidepoolKit.framework */,
 				434FB6451D68F1CD007B9C70 /* Amplitude.framework */,
@@ -827,6 +837,7 @@
 				TargetAttributes = {
 					43776F8B1B8022E90074EA36 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5997UMTT2M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -844,6 +855,7 @@
 					};
 					43A943711B926B7B0051FA24 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5997UMTT2M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -852,6 +864,7 @@
 					};
 					43A9437D1B926B7B0051FA24 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5997UMTT2M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1266,7 +1279,6 @@
 				);
 				INFOPLIST_FILE = Loop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1285,7 +1297,6 @@
 				);
 				INFOPLIST_FILE = Loop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
